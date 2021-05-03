@@ -129,6 +129,10 @@ impl EncodedName {
     pub fn decode(&self) -> Result<NetbiosName, NetbiosError<&[u8]>> {
         NetbiosName::decode(&self.0)
     }
+
+    pub fn raw_str(&self) -> &str {
+        self.0.as_ref()
+    }
 }
 
 /// NetBIOS Name Service Name Query
