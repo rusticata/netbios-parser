@@ -1,0 +1,29 @@
+[package]
+name = "netbios-parser"
+version = "0.1.0"
+description = "Parser for the NetBIOS/NBSS network format"
+license = "MIT/Apache-2.0"
+keywords = ["netbios","nbss","parser","nom"]
+authors = ["Pierre Chifflier <chifflier@wzdftpd.net>"]
+
+readme = "README.md"
+categories = ["network-programming", "parser-implementations"]
+edition = "2018"
+
+include = [
+  "LICENSE-*",
+  "README.md",
+  ".gitignore",
+  "Cargo.toml",
+  "src/*.rs",
+  "tests/*.rs"
+]
+
+[dependencies]
+dns-parser = "0.8"
+nom-derive = "0.8"
+rusticata-macros = "3.0"
+thiserror = "1.0"
+
+[dev-dependencies]
+hex-literal = "0.3"
