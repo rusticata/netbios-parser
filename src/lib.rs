@@ -11,7 +11,7 @@
 //!
 //! Currently only NBSS parsing is implemented
 //!
-//! The code is available on [Github](https://github.com/rusticata/pcap-parser)
+//! The code is available on [Github](https://github.com/rusticata/netbios-parser)
 //! and is part of the [Rusticata](https://github.com/rusticata) project.
 //!
 //! [rfc1002]: https://www.ietf.org/rfc/rfc1002.txt
