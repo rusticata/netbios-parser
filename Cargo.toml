@@ -21,7 +21,7 @@ include = [
 
 [dependencies]
 dns-parser = "0.8"
-nom-derive = "0.8"
+nom-derive = "0.9"
 rusticata-macros = "3.0"
 thiserror = "1.0"
 

@@ -6,6 +6,7 @@ use nom::error::ParseError;
 use nom::multi::count;
 use nom::number::streaming::{be_u16, be_u32, be_u8};
 use nom::{bytes::streaming::take, IResult};
+use nom_derive::Parse;
 use std::net::Ipv4Addr;
 
 pub(crate) fn be_u48<'a, E: ParseError<&'a [u8]>>(i: &'a [u8]) -> IResult<&'a [u8], u64, E> {
