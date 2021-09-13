@@ -5,7 +5,7 @@
 [![Crates.io Version](https://img.shields.io/crates/v/netbios-parser.svg)](https://crates.io/crates/netbios-parser)
 [![docs.rs](https://docs.rs/netbios-parser/badge.svg)](https://docs.rs/netbios-parser)
 [![Github CI](https://github.com/rusticata/netbios-parser/workflows/Continuous%20integration/badge.svg)](https://github.com/rusticata/netbios-parser/actions)
-[![Minimum rustc version](https://img.shields.io/badge/rustc-1.44.0+-lightgray.svg)](#rust-version-requirements)
+[![Minimum rustc version](https://img.shields.io/badge/rustc-1.46.0+-lightgray.svg)](#rust-version-requirements)
 
 NetBIOS parser
 
