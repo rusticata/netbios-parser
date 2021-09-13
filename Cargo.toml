@@ -21,8 +21,8 @@ include = [
 
 [dependencies]
 dns-parser = "0.8"
-nom-derive = "0.9"
-rusticata-macros = "3.0"
+nom-derive = "0.10"
+rusticata-macros = "4.0"
 thiserror = "1.0"
 
 [dev-dependencies]
